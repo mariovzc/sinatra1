@@ -3,3 +3,6 @@ get '/makers/:nombre' do
   @nombre = params[:nombre].to_s
   erb :index
 end
+post '/' do
+    "Hola #{params[:nombre]}!"
+end
