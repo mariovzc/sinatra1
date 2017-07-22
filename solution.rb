@@ -1,6 +1,5 @@
 require 'sinatra'
-get '/makers/:nombre' do
-  @nombre = params[:nombre].to_s
+get '/' do
   erb :index
 end
 post '/' do
